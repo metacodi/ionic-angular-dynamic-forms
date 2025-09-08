@@ -17,12 +17,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-org/ionic-angular-dynamic-forms.git"
+    "url": "git+https://github.com/metacodi/ionic-angular-dynamic-forms.git"
   },
   "bugs": {
-    "url": "https://github.com/your-org/ionic-angular-dynamic-forms/issues"
+    "url": "https://github.com/metacodi/ionic-angular-dynamic-forms/issues"
   },
-  "homepage": "https://github.com/your-org/ionic-angular-dynamic-forms#readme",
+  "homepage": "https://github.com/metacodi/ionic-angular-dynamic-forms#readme",
   "sideEffects": false,
   "scripts": {
     "build": "ng-packagr -p ng-package.json",
@@ -37,6 +37,7 @@
     "@ionic/angular": "^8.7.3",
     "@ngx-translate/core": "^17.0.0",
     "rxjs": "~7.8.0",
+    "tslib": "^2.8.1",
     "zone.js": "^0.15.1"
   },
   "devDependencies": {

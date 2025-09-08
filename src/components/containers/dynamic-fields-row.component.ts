@@ -30,8 +30,8 @@ import { DynamicAbstractComponent } from '../../core/dynamic-abstract.component'
 export class DynamicFieldsRowComponent extends DynamicAbstractComponent implements DynamicFieldsRow {
 
   cols: FieldType[];
-  override frm: FormGroup;
-  override host: any;
+  declare frm: FormGroup;
+  declare host: any;
 
   constructor(protected override injector: Injector) { super(injector); }
 
