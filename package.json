@@ -1,0 +1,55 @@
+{
+  "name": "@metacodi/ionic-angular-dynamic-forms",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jordi Giral",
+    "email": "jgiral@metacodi.com"
+  },
+  "description": "Dynamic form components for Ionic + Angular based on JSON schemas.",
+  "keywords": [
+    "ionic",
+    "angular",
+    "forms",
+    "dynamic",
+    "json",
+    "components"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/ionic-angular-dynamic-forms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/ionic-angular-dynamic-forms/issues"
+  },
+  "homepage": "https://github.com/your-org/ionic-angular-dynamic-forms#readme",
+  "sideEffects": false,
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json",
+    "clean": "rimraf dist",
+    "test": "jest",
+    "lint": "eslint \"src/**/*.ts\""
+  },
+  "peerDependencies": {
+    "@angular/common": ">=16 <18",
+    "@angular/core": ">=16 <18",
+    "@angular/forms": ">=16 <18",
+    "@ionic/angular": ">=7 <8",
+    "rxjs": ">=7 <8",
+    "zone.js": ">=0.13 <1"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^16.2.0",
+    "@angular/compiler-cli": "^16.2.0",
+    "@types/jest": "^29.5.12",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "jest-preset-angular": "^13.1.4",
+    "ng-packagr": "^16.2.0",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.2.5",
+    "tslib": "^2.6.2",
+    "typescript": "~5.1.6"
+  }
+}
+
