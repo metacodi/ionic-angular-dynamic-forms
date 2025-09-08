@@ -2,7 +2,7 @@
   "extends": "./tsconfig.lib.json",
   "compilerOptions": {
     "outDir": "./dist/out-tsc/spec",
-    "types": ["jest", "node"],
+    "types": ["node"],
     "strictNullChecks": false
   },
   "include": ["test/**/*.ts", "src/**/*.ts"]
