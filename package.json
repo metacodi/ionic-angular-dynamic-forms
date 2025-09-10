@@ -1,10 +1,11 @@
 {
   "name": "@metacodi/ionic-angular-dynamic-forms",
   "version": "1.0.0",
-  "author": {
-    "name": "Jordi Giral",
-    "email": "jgiral@metacodi.com"
-  },
+  "author": { "name": "Metacodi, S.L." },
+  "contributors": [
+    { "name": "Jordi Giral", "email": "jgiral@metacodi.com" },
+    { "name": "Xavier Giral", "email": "xgiral@metacodi.com" }
+  ],
   "description": "Dynamic form components for Ionic + Angular based on JSON schemas.",
   "keywords": [
     "ionic",
